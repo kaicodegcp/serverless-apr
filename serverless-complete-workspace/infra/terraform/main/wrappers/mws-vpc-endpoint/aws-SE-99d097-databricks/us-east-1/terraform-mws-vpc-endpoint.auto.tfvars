@@ -1,0 +1,5 @@
+account_id = "00000000-0000-0000-0000-000000000000"
+vpc_endpoint_name = "se-test-vpc_endpoint_name"
+region = "us-east-1"
+aws_vpc_endpoint_id = "se-test-aws_vpc_endpoint_id"
+aws_account_id = "se-test-aws_account_id"

@@ -1,0 +1,10 @@
+aws_region                     = "us-east-1"
+databricks_account_id          = "00000000-0000-0000-0000-000000000000"
+databricks_aws_account_id      = "414351767826"
+name_prefix                    = "se-serverless"
+workspace_name                 = "se-serverless-workspace"
+workspace_root_bucket_name     = "se-serverless-workspace-root"
+existing_metastore_name        = "se-serverless-metastore"
+enable_service_principal       = true
+service_principal_display_name = "wks-tf-sp"
+unity_catalog_name             = "se_serverless_catalog"

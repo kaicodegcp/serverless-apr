@@ -1,0 +1,32 @@
+# Wrapper: cluster
+module "cluster" {
+  source = "../../modules/cluster"
+
+  cluster_name                 = var.cluster_name
+  spark_version                = var.spark_version
+  node_type_id                 = var.node_type_id
+  driver_node_type_id          = var.driver_node_type_id
+  num_workers                  = var.num_workers
+  autoscale                    = var.autoscale
+  autotermination_minutes      = var.autotermination_minutes
+  spark_conf                   = var.spark_conf
+  custom_tags                  = var.custom_tags
+  spark_env_vars               = var.spark_env_vars
+  enable_elastic_disk          = var.enable_elastic_disk
+  enable_local_disk_encryption = var.enable_local_disk_encryption
+  data_security_mode           = var.data_security_mode
+  runtime_engine               = var.runtime_engine
+  instance_pool_id             = var.instance_pool_id
+  driver_instance_pool_id      = var.driver_instance_pool_id
+  policy_id                    = var.policy_id
+  single_user_name             = var.single_user_name
+  idempotency_token            = var.idempotency_token
+  apply_policy_default_values  = var.apply_policy_default_values
+  aws_attributes               = var.aws_attributes
+  init_scripts                 = var.init_scripts
+  libraries                    = var.libraries
+  cluster_log_conf             = var.cluster_log_conf
+  workload_type                = var.workload_type
+  enable_enhanced_security     = var.enable_enhanced_security
+  allowed_languages            = var.allowed_languages
+}

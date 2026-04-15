@@ -1,0 +1,4 @@
+version: v1
+tasks:
+  - name: push-terraform-to-artifactory
+    ref: public-cloud-infrastructure-publish
