@@ -1,0 +1,42 @@
+Serverless Complete Workspace – Module List (Sequence Order)
+🔹 Stage 1: AWS Foundation Modules
+aws-vpc
+aws-subnets
+aws-security-group
+aws-iam-role
+aws-s3-root-bucket
+aws-kms-key
+aws-vpc-endpoints
+aws-nat-gateway
+aws-internet-gateway
+🔹 Stage 2: Databricks Account-Level Modules
+mws-credentials
+mws-storage-configurations
+mws-networks
+mws-vpc-endpoints
+mws-private-access-settings
+mws-workspaces
+🔹 Stage 3: Workspace-Level Modules
+workspace-conf
+workspace-file-system
+workspace-notebook
+workspace-secret-scope
+workspace-cluster-policies
+🔹 Stage 4: Unity Catalog Modules
+metastore
+metastore-assignment
+storage-credential
+external-location
+catalog
+schema
+volume
+🔹 Stage 5: Identity & Access Modules
+account-user
+account-group
+group-membership
+grants
+🔹 Stage 6: Workload / Serverless Modules
+sql-warehouse-serverless
+jobs
+pipelines
+experiments
