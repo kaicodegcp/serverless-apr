@@ -30,3 +30,15 @@ sql-warehouse
 jobs
 pipelines
 experiments
+
+
+
+| Area           | Serverless                 | Classic                          |
+| -------------- | -------------------------- | -------------------------------- |
+| Compute        | Fully managed              | You create clusters              |
+| Cluster module | ❌ Not needed               | ✅ Required (`workspace-cluster`) |
+| Instance pools | ❌ Not used                 | ✅ Optional but common            |
+| SQL Warehouse  | `sql-warehouse-serverless` | `sql-warehouse`                  |
+| Infra overhead | Low                        | High                             |
+
+
