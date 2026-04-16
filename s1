@@ -1,0 +1,7 @@
+aws-kms
+aws-s3-root-bucket
+mws-customer-managed-keys
+mws-storage-configurations
+mws-workspaces
+metastore-assignment
+
